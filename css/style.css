@@ -1,0 +1,31 @@
+.oswald-title {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.page-title {
+    margin-left: 15px;
+}
+
+.giphy-css {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.search-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search-element {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+img {
+    max-width: 200px;
+    margin: 10px;
+}
