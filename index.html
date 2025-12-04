@@ -15,14 +15,14 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-primary">
                 <div class="container-fluid">
-                    <a class="navbar-brand oswald-title" href="#">GIF Search Tool</a>
+                    <a class="navbar-brand oswald-title" href="./index.html">GIF Search Tool</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">Trending</a>
@@ -37,9 +37,13 @@
         </header>
 
         <main>
+            <p class="description">Enter a word or phrase in the search bar below and enter the number of images 
+                you would like returned. Number of images is capped at 30.
+                </p>
             <div class="search-controls">
-                <input class="search-element" type="text" id="input">
-                <button class="search-element btn btn-dark" type="submit" onclick="fetchData()">Get Gif's</button>
+                <input class="search-element" type="text" id="input-search" placeholder="Search">
+                <input class="search-element number-input" type="text" id="input-number" placeholder="No. Images">
+                <button class="search-element btn btn-dark" type="submit" onclick="fetchData()">Get GIF's</button>
                 <button class="search-element btn btn-dark" type="submit" onclick="clearData()">Clear</button>
             </div>
             

@@ -8,6 +8,12 @@
 .page-title {
     margin-left: 15px;
 }
+.description {
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px 0px 20px;
+    
+}
 
 .giphy-css {
     display: flex;
@@ -18,12 +24,16 @@
 .search-controls {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .search-element {
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.number-input {
+    width: 100px;
 }
 
 img {
