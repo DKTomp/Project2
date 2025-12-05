@@ -8,11 +8,11 @@
 .page-title {
     margin-left: 15px;
 }
+
 .description {
     display: flex;
     justify-content: center;
-    margin: 50px 20px 0px 20px;
-    
+    margin: 50px 20px 0px 20px; 
 }
 
 .giphy-css {
@@ -48,6 +48,10 @@ img {
         justify-content: center;
     }
 
+    .description {
+        margin-top: 10px;
+    }
+
     .search-element {
         margin-bottom: 7px;
     }
@@ -61,5 +65,4 @@ img {
     .btn {
         width: 100px;
     }
-    
 }

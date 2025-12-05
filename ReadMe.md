@@ -19,10 +19,8 @@ https://dktomp.github.io/Project1/
 - **As a user, I want to search for GIF's, so that I can save them to a library**
 
 ## Wireframes:
-<img src="./Images/index-mobile.png" style="width:300px"/>
-<img src="./Images/index-preview.jpg" style="width:300px"/><br>
-<img src="./Images/mountaineering-mobile.jpg" style="width:300px"/>
-<img src="./Images/mountaineering-preview.jpg" style="width:300px"/>
+<img src="./Images/GiphyAppDesktop.jpg" style="width:300px"/>
+<img src="./Images/GiphyAppMobile.jpg" style="width:300px"/>
 
 
 ## Ideas for future improvements:
