@@ -40,3 +40,26 @@ img {
     max-width: 200px;
     margin: 10px;
 }
+
+@media (max-width: 480px){
+    .search-controls {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .search-element {
+        margin-bottom: 7px;
+    }
+
+    .giphy-css {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 100px;
+    }
+    
+}

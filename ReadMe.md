@@ -1,5 +1,5 @@
 ## Project Overview: 
-This website allows the user to enter a word or phrase into a text box and click a button to load GIF images from Giphy. There is a paragraph containing the simple instructions for how to use the application. The application collects and displays the number of images requested by the user. Through the use of flex boxes, the application displays the returned images in a grid that scales with screen width and stays centered on the screen. 
+This website allows the user to enter a word or phrase into a text box and click a button to load GIF images from Giphy. There is a paragraph containing the simple instructions for how to use the application. The application collects and displays the number of images requested by the user. Through the use of flex boxes, the application displays the returned images in a grid that scales with screen width and stays centered on the screen. There is a clear button that removes all images from the page and also clears both of the input boxes.
 
 https://dktomp.github.io/Project1/
 
@@ -12,11 +12,11 @@ https://dktomp.github.io/Project1/
 
 ## User Stories:
 ### User Story 
-- **As a user, I want to browse guide services and locations, so that I can climb a route outdoors.**
+- **As a user, I want to search for GIF's, so that I can send them to someone**
 ### User Story 
-- **As a user, I want to browse guide services and locations, so that I can go river rafting.**
+- **As a user, I want to search for GIF's, so that I can save them to my device**
 ### User Story 
-- **As a user, I want to browse guide services and locations, so that I can go mountain climbing.**
+- **As a user, I want to search for GIF's, so that I can save them to a library**
 
 ## Wireframes:
 <img src="./Images/index-mobile.png" style="width:300px"/>
@@ -26,6 +26,8 @@ https://dktomp.github.io/Project1/
 
 
 ## Ideas for future improvements:
-- **Add calendar for user to select dates of services**
-- **Add more images to make the page prettier**
-- **Add accordians on specific adventure pages**
+- **Add a function to save GIF's to a library for future use**
+- **Add more pages to browse saved GIF's**
+- **Add more styling**
+
+## Author - Dylan Tompkins

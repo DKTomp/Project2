@@ -41,10 +41,12 @@
                 you would like returned. Number of images is capped at 30.
                 </p>
             <div class="search-controls">
-                <input class="search-element" type="text" id="input-search" placeholder="Search">
-                <input class="search-element number-input" type="text" id="input-number" placeholder="No. Images">
-                <button class="search-element btn btn-dark" type="submit" onclick="fetchData()">Get GIF's</button>
-                <button class="search-element btn btn-dark" type="submit" onclick="clearData()">Clear</button>
+                <input class="search-element rounded-1" type="text" id="input-search" placeholder="Search">
+                <input class="search-element number-input rounded-1" type="text" id="input-number" placeholder="No. Images">
+                <div>
+                    <button class="search-element btn btn-dark" type="submit" onclick="fetchData()">Get GIF's</button>
+                    <button class="search-element btn btn-dark" type="submit" onclick="clearData()">Clear</button>
+                </div>
             </div>
             
             <section class="giphy-css" id="giphy-container"></section>
