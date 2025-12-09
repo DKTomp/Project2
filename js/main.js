@@ -4,33 +4,34 @@ async function fetchData() {
         let userInput = document.getElementById("input-search").value
         let userNumber = document.getElementById("input-number").value
 
-        inputChecks()
+        inputChecks(userNumber, userInput)
 
-        let responseGigphy = await fetch (`https://api.giphy.com/v1/gifs/search?api_key=AbSNfVKiCVf9GMPAnAsNGuG4QlhrnIAo&q=${userInput}&limit=${userNumber}&offset=0&rating=g&lang=en&bundle=messaging_non_clips`)
+        let responseGigphy = await fetch (`https://api.giphy.com/v1/gifs/search?api_key=gjhOAzG5MmkQGczS2c1t5a3JMfrIwrG5&q=${userInput}=&limit=${userNumber}&offset=0&rating=g&lang=en&bundle=messaging_non_clips`)
         let dataGiphy = await responseGigphy.json()
+        console.log(dataGiphy)
         let arrayGigphy = dataGiphy.data
 
         arrayGigphy.forEach(element => {
             let newGIF = document.createElement ("img")
             newGIF.src = element.images.original.url 
             document.getElementById("giphy-container").appendChild(newGIF)   
-        });
+        })
     } catch (error) {
         console.log("fetch error")
     }
 }
 
-function inputChecks() {
-    if (userNumber > 30 || userNumber === "") {
-            userNumber = 30
+function inputChecks(Number, input) {
+    if (Number > 30 || Number === "") {
+            return userNumber = 30
         }
 
-        if (userInput === "") {
+        if (input === "") {
             let errorMessage = document.createElement("p")
             errorMessage.innerText = "Please enter a search term in the search box"
             document.getElementById("giphy-container").appendChild(errorMessage)
             return;
-        } 
+        }
 }
 
 function clearData() {

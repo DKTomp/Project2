@@ -37,7 +37,8 @@
 }
 
 img {
-    max-width: 200px;
+    max-width: 250px;
+    max-height: 200px;
     margin: 10px;
 }
 
