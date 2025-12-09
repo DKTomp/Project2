@@ -1,15 +1,21 @@
+img {
+    max-width: 250px;
+    max-height: 200px;
+    margin: 10px;
+}
+
+body {
+    background-color: #000000;
+}
+
 .oswald-title {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-
-.page-title {
-    margin-left: 15px;
-}
-
 .description {
+    color: white;
     display: flex;
     justify-content: center;
     margin: 50px 20px 0px 20px; 
@@ -36,11 +42,7 @@
     width: 100px;
 }
 
-img {
-    max-width: 250px;
-    max-height: 200px;
-    margin: 10px;
-}
+
 
 @media (max-width: 480px){
     .search-controls {
