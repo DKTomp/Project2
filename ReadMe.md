@@ -9,17 +9,17 @@ https://dktomp.github.io/Project2/
 - **css**
 - **boostrap**
 - **giphy API**
+- **async/await**
 
-## User Stories:
-### User Story 
+## User Stories: 
 - **As a user, I want to search for GIF's, so that I can send them to someone**
-### User Story 
+ 
 - **As a user, I want to search for GIF's, so that I can save them to my device**
-### User Story 
+
 - **As a user, I want to search for GIF's, so that I can save them to a library**
 
 ## Wireframes:
-<img src="./Images/GiphyAppDesktop.jpg" style="width:300px"/>
+<img src="./Images/GiphyAppDesktop.jpg" style="width:300px"/><br>
 <img src="./Images/GiphyAppMobile.jpg" style="width:300px"/>
 
 
@@ -29,3 +29,4 @@ https://dktomp.github.io/Project2/
 - **Add more styling**
 
 ## Author - Dylan Tompkins
+<a>www.linkedin.com/in/dylan-tompkins-24728439a</a>

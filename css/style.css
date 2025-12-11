@@ -44,7 +44,7 @@ body {
 
 
 
-@media (max-width: 480px){
+@media (max-width: 490px){
     .search-controls {
         display: flex;
         flex-direction: column;

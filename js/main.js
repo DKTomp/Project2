@@ -1,3 +1,4 @@
+// accepts the input from user and calls the API
 async function fetchData() {
     try {
         document.getElementById("giphy-container").textContent = ""
@@ -20,6 +21,8 @@ async function fetchData() {
     }
 }
 
+// accepts the input from user and runs checks for viable data before
+// calling the API. Generates error message if problem found
 function inputChecks(Number, input) {
     if (Number > 30 || Number === "") {
             return userNumber = 30
@@ -33,6 +36,7 @@ function inputChecks(Number, input) {
         }
 }
 
+// clears all data from input boxes and webpage
 function clearData() {
     document.getElementById("giphy-container").textContent = ""
     document.getElementById("input-search").value = ""
