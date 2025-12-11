@@ -22,6 +22,8 @@ https://dktomp.github.io/Project2/
 <img src="./Images/GiphyAppDesktop.jpg" style="width:300px"/><br>
 <img src="./Images/GiphyAppMobile.jpg" style="width:300px"/>
 
+## Screenshots:
+<img src="./images/ScreenshotDesktop.jpg">
 
 ## Ideas for future improvements:
 - **Add a function to save GIF's to a library for future use**
