@@ -16,7 +16,7 @@ async function fetchData() {
             document.getElementById("giphy-container").appendChild(newGIF)   
         })
     } catch (error) {
-        console.log("fetch error")
+        console.log("Error when fetching API")
     }
 }
 
